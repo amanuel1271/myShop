@@ -1,4 +1,4 @@
-#MyShop
+# MyShop
 
 In Myshop, clients are able to sell or buy products according to the need. Clients have to signup first before being able to buy/sell. After signing up, they can login using their email and password credentials. To buy a product, the client must add to cart and order the products and pay using the test cards given below. To sell a product, the client must enter the Add product page and input the title, image file(jpg or jpeg),price and description.
 
