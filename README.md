@@ -16,10 +16,12 @@ In Myshop, clients are able to sell or buy products according to the need. Clien
 - Mongoose ODM is used to connect and access the MongoDB database, which stores user info, product info and also session info.
 - The app uses sessions, authentication and validation to handle users.
 - It uses stripe to make online payment, the following are available test cards for online payment
-
     -CardType
+    
     -Card number
+    
     - CVC
+    
     - Expiry date
     
    ![image](https://user-images.githubusercontent.com/50099232/177853952-587d13d6-07cd-47d3-9580-ac05f3352fbc.png)
