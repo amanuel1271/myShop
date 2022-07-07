@@ -17,7 +17,10 @@ In Myshop, clients are able to sell or buy products according to the need. Clien
 - The app uses sessions, authentication and validation to handle users.
 - It uses stripe to make online payment, the following are available test cards for online payment
 
-    CardType   $~~~~~~~~~~~$        Card Number   $~~~~~~~~~~~$                CVC   $~~~~~~~~~~~$              Date
+    -CardType
+    -Card number
+    - CVC
+    - Expiry date
     
    ![image](https://user-images.githubusercontent.com/50099232/177853952-587d13d6-07cd-47d3-9580-ac05f3352fbc.png)
 
