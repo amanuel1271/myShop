@@ -1,14 +1,14 @@
 const express = require('express');
 const { check, body } = require('express-validator/check');
 
-const authController = require('../controllers/auth');
+const {getLogin,getSignup,postLogin,postSignup,postLogout} = require('../controllers/auth');
 const User = require('../models/user');
 
 const router = express.Router();
 
-router.get('/login', authController.getLogin);
+router.get('/login', getLogin);
 
-router.get('/signup', authController.getSignup);
+router.get('/signup', getSignup);
 
 router.post(
   '/login',
@@ -22,7 +22,7 @@ router.post(
       .isAlphanumeric()
       .trim()
   ],
-  authController.postLogin
+  postLogin
 );
 
 router.post(
@@ -57,9 +57,9 @@ router.post(
         return true;
       })
   ],
-  authController.postSignup
+  postSignup
 );
 
-router.post('/logout', authController.postLogout);
+router.post('/logout', postLogout);
 
 module.exports = router;
